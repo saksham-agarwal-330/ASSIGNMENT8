@@ -1,0 +1,66 @@
+<html>
+<head><title>ASSIGNMENT8</title>
+</head>
+<body bgcolor="#C0C0C0">
+<h1> My Bio Data</h1>
+<form>
+<fieldset>
+  <legend>Personal Information</legend>
+    <label for="firstname"> First Name: </label>
+    <input  type="text" name="firstname" id="firstname" placeholder="First Name" required />
+
+    <label for="lastname"> Last Name: </label>
+    <input  type="text" name="lastname" id="lastname" placeholder="Last Name" required />
+    <br />
+    <br />
+    <label for="gender"> Gender: </label>
+    <input  type="radio" name="gender">MALE
+    <input  type="radio" name="gender">FEMALE
+    <input  type="radio" name="gender">Others
+    <br />
+    <br />
+<lable for="dob"> Date Of Birth :</lable>
+<input type="date" name="Date Of Birth" id="dob"  required />
+<br />
+<br />
+<lable for="emailid"> E-mail :</lable>
+<input type="email" name="emailid" id="E-mail" placeholder="abc@email.com" required />
+<br />
+<br />
+<lable for="Phone"> Phone Number:</lable>
+<input type="tel" name="phone" id="Phone"  placeholder="+91" required />
+<br />
+<br />
+<lable for="height"> Height :</lable>
+<input type="number" name="height" id="Height" required />
+<br />
+</fieldset>
+<br />
+<fieldset>
+  <legend>Education</legend>
+<lable for="School"> School Name:</lable>
+<input type="text" name="School" id="School" placeholder="Your School Name"  required />
+<br />
+<br />
+<lable for="Class"> Class:</lable>
+<input type="number" name="Class" id="Class" placeholder="Your Class" required />
+<br />
+<br />
+<lable for="stream">Stream :</lable>
+<select name="stream" id"Stream">
+<option value="Stream">Stream</option>
+<option value="Science/Maths">Science/Maths</option>
+<option value="Science/Bio">Science/Bio</option>
+<option value="commerce">Commerce</option>
+</select>
+<br />
+<br />
+<lable for="Marksheet">Marksheet:</lable>
+<input type="file" name="Marksheet" id="Marksheet" required />
+<br />
+<br />
+</fieldset>
+<br />
+<input  type="Submit" value="Submit"/>
+</form>
+</body>
